@@ -6,3 +6,5 @@ Vous retrouverez le liens vers le support de formation
 Pour chaque exercices, vous trouverez un fichier "exo.sql" à
 insérer dans votre base de données via [phpmyadmin](http://localhost/phpmyadmin?route=/server/sql)
 avant de commencer les exercices :).
+
+## [Exo série 1](./serie1/instruction.md)
