@@ -31,7 +31,7 @@ Supprimer l'article avec le titre "Voyage en amérique du sud"
 
 ## Exo 6
 
-Créer une table "author" avec les colones suivantes
+Créer une table "auteurs" avec les colones suivantes
 
 | nom            | type                               |
 | -------------- | ---------------------------------- |
@@ -40,3 +40,27 @@ Créer une table "author" avec les colones suivantes
 | prenom         | VARCHAR(255)                       |
 | email          | VARCAR(255)                        |
 | imageDeProfile | VARCHAR(255)                       |
+
+## Exo 7
+
+Ajouter dans la table "autheurs" les données suivantes
+
+| nom    | prenom | email                | imageDeProfile                                                              |
+| ------ | ------ | -------------------- | --------------------------------------------------------------------------- |
+| Doe    | John   | john.doe@mail.com    | https://www.fote.org.uk/wp-content/uploads/2017/03/profile-icon-300x300.png |
+| Doe    | Jane   | jane.doe@mail.com    | https://www.fote.org.uk/wp-content/uploads/2017/03/profile-icon-300x300.png |
+| Dupont | Jean   | jean.dupont@mail.com | https://www.fote.org.uk/wp-content/uploads/2017/03/profile-icon-300x300.png |
+
+## Exo 8
+
+Séléctionner l'id et l'email des auteurs avec le nom "Doe"
+
+## Exo 9
+
+Séléctionner tout les articles dont la description commence par
+"Mon" et dont le titre contient "Voyage"
+
+## Exo 10
+
+Méttre à jour tout les auteurs avec le nom "Doe" et leurs assigner
+le nom "Doudou"
