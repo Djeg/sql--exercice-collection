@@ -26,3 +26,17 @@ Mettre à jour la description de l'article avec le titre "Voyage en afrique" en 
 par : "Voyage en éthiopie"
 
 ## Exo 5
+
+Supprimer l'article avec le titre "Voyage en amérique du sud"
+
+## Exo 6
+
+Créer une table "author" avec les colones suivantes
+
+| nom            | type                               |
+| -------------- | ---------------------------------- |
+| id             | INTEGER PRIMARY KEY AUTO_INCREMENT |
+| nom            | VARCHAR(255)                       |
+| prenom         | VARCHAR(255)                       |
+| email          | VARCAR(255)                        |
+| imageDeProfile | VARCHAR(255)                       |
