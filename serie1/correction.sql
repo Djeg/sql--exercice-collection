@@ -94,3 +94,16 @@ USE test_blog;
 UPDATE auteurs
 SET nom = "Doudou"
 WHERE nom = "Doe";
+
+
+
+
+
+SELECT
+  A.titre as articleTitre,
+  Au.nom as auteurNom,
+  Au.prenom as auteurPrenom
+FROM
+  articles as A
+INNER JOIN auteurs as Au
+ON A.auteurId = Au.id;

@@ -8,3 +8,5 @@ insérer dans votre base de données via [phpmyadmin](http://localhost/phpmyadmi
 avant de commencer les exercices :).
 
 ## [Exo série 1](./serie1/instruction.md)
+
+## [Exo série 2](./serie2/instruction.md)
