@@ -104,3 +104,5 @@ Grâce à un INNER JOIN et WHERE récupérer tout les articles
 
 Grâce à une INNER JOIN et WHERE récupérer tout les articles
 commentés par l'utilisateur "Doe Rose"
+
+IF(L4 = 0; "A"; IF(L4 = 1; "B"; IF(L4 = 2; "C"; IF(L4 = 3; "D"; IF(L4 = 4; "E"; "F")))))
