@@ -1,4 +1,4 @@
-# Exercice MySQL - Serie 1
+# Exercice MySQL - Serie 2
 
 Avant de commencer insérer le fichier [exo.sql](./exo.sql)
 dans votre base de données via [phpmyadmin](http://localhost/phpmyadmin?route=/server/sql)
@@ -15,7 +15,7 @@ Créer la table "utilisateurs" avec les champs suivants :
 
 ## Exo 2
 
-Insérer dans la table user les données suivantes :
+Insérer dans la table "utilisateurs" les données suivantes :
 
 | nom    | prenom |
 | ------ | ------ |
@@ -37,8 +37,8 @@ Créer la table "commentaires" avec les champs suivants :
 ## Exo 4
 
 Ajouter la contrainte de clefs étrangère suivante :
-Liées le champs "commentaires.utilisateurId" à
-"utilisateurs.id"
+**Lier le champ `commentaires.utilisateurId` à
+`utilisateurs.id`**
 
 ## Exo 5
 
@@ -66,18 +66,18 @@ suivant :
 
 ## Exo 7
 
-Ajouter la colone "articleId" dans la table "commentaires"
-de type "INTEGER"
+Ajouter la colone **`articleId`** dans la table **`commentaires`**
+de type **`INTEGER`**
 
 ## Exo 8
 
 Ajouter la contrainte de clefs étrangére suivante :
-Lier "commentaires.articleId" à "articles.id"
+**Lier `commentaires.articleId` à `articles.id`**
 
 ## Exo 9
 
-Modifier tout les commentaires et attacher la valeur 1 au
-champ "articleId"
+Modifier tout les commentaires et attacher la valeur **1** au
+champ **`articleId`**
 
 ## Exo 9
 
@@ -98,9 +98,9 @@ suivant :
 ## Exo 11
 
 Grâce à un INNER JOIN et WHERE récupérer tout les articles
-écrite par l'auteur "John Doudou"
+écrits par l'auteur "John Doudou"
 
 ## Exo 12
 
 Grâce à une INNER JOIN et WHERE récupérer tout les articles
-commenté par l'utilisateur "Doe Rose"
+commentés par l'utilisateur "Doe Rose"
